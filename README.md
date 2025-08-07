@@ -25,14 +25,13 @@ This is a Python-based GUI tool that uploads multiple dashboard JSON files to a 
 ## Folder Structure
 
 root/
-│
-├── DT-Bulk_Dashboard_Uploader.exe # Main Python GUI script
-├── dashboard_files/ # Folder containing dashboard JSON files
-│ ├── dashboard1.json
-│ ├── dashboard2.json
-│ └── ...
-├── logs.txt # Action log file
-└── upload_log.txt # Upload result log file
+- DT-Bulk_Dashboard_Uploader.exe # Main Python GUI script
+- dashboard_files/ # Create a folder containing dashboard JSON files
+  - dashboard1.json
+  - dashboard2.json
+  - ...
+- logs.txt # Action log file (auto-created)
+- upload_log.txt # Upload result log file (auto-created)
 
 
 ---
